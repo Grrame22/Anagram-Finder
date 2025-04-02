@@ -1,7 +1,5 @@
 # Anagram-Finder
 
-# Group Anagrams
-
 ## Description
 This program groups words from an input list into anagram groups and prints them as separate groups. The program takes a file with a set of words, groups those that are anagrams, and outputs the result.
 
