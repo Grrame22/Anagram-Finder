@@ -17,6 +17,7 @@ This program processes a large number of words and groups them into anagrams eff
   - Using a database or key-value store instead of an in-memory dictionary to avoid memory constraints.
   - Implementing parallel processing (e.g., using Python’s `multiprocessing`) to process large datasets more efficiently.
   - Storing intermediate results in external storage (e.g., disk or a distributed system) to prevent memory overflow.
+  - Using more efficient algorithms than `sorted()` for sorting to optimize performance when dealing with extremely large datasets.
  
 ## Performance
 - Using `tuple(sorted(word))` as a dictionary key ensures quick comparisons and avoids unnecessary string operations.
